@@ -55,5 +55,7 @@ public class FacebookTestingApp {
 
         WebElement buttonSubmit = webDriver.findElement(By.xpath(XPATH_BUTTON_SUBMIT));
         buttonSubmit.click();
+
+        webDriver.close();
     }
 }
